@@ -1,4 +1,4 @@
-Projecto desenvolvido por Nuno Correia (nuno_correia_96@hotmail.com).\
+Projecto desenvolvido por Nuno Correia
 Linguagem escolhida: PHP.
 
 
