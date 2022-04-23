@@ -2,7 +2,7 @@ Projecto desenvolvido por Nuno Correia
 Linguagem escolhida: PHP.
 
 
-# Metodos criados
+# Methods created
 
 Return all drinks ordered by category
 
@@ -29,21 +29,21 @@ Create a new order
         "money" : "6.20"
     }
 
-O metodo acima faz as seguintes validações:\
+O método acima faz as seguintes validações:\
     - Verifica se a bebida introduzida em "product" existe.
     - Verifica se há stock da bebida escolhida.\
     - Calcula o total do pedido (bebida + extras caso estes tenham sido escolhidos).\
     - Verifica se o dinheiro dado em "money" é suficiente para cobrir o preço total do pedido.
 
 
-# Estrutura da BD
+# DB Structure
 
     BD criada com 3 tabelas (categories, extras e products), entre elas apenas existe a ligação entre a tabela products e categories através das colunas "idCategory" e "id" respetivamente
 
     ->foi feito um dump da BD só com as tabelas e os dados de modo a ser possivel testar. -> ficheiro "starbucks.sql"
 
 
-# Lista de pastas e ficheiros
+# Folders & files
 
 >config/
 
